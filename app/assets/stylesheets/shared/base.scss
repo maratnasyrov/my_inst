@@ -1,0 +1,41 @@
+code {
+  word-wrap: break-word;
+  font-weight: normal;
+}
+
+h1, h2 {
+  margin: 1rem 0 0.5rem;
+}
+
+h6 {
+  margin-top: 0;
+  line-height: 1;
+}
+
+li {
+  list-style-position: inside;
+}
+
+ul.links {
+  font-size: 0.85rem
+}
+
+.btn-back {
+  float: left;
+  background-image: url("back_white_25.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -999999px;
+  padding-left: 1.75rem;
+  margin-left: 2.75rem;
+  margin-top: 0.75rem;
+
+  &:hover {
+    background-image: url("back_grey_25.png")
+  }
+}
+
+#root {
+  background-color: whitesmoke;
+}
+
