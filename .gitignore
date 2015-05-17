@@ -1,0 +1,17 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/*
+coverage/*
+rerun.txt
+config/database.yml
+doc/**/*
+vendor/bundle
+vendor/cache
+vendor/ruby
+.sass-cache
+._*
+.env
+.pryrc
+public/system/articles/images/*
+log/development.log
