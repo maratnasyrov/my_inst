@@ -4,8 +4,9 @@
     = f.text_field :title, class: "title-input"
     = f.label :text, class: "text-form"
     = f.text_area :text, class: "text-input"
-    = f.file_field :image, class: "img-input"
+    .img-input
+        = f.file_field :image
     = f.label :privacy
     = f.check_box :privacy, class: "prv-btn"
     center
-      p = f.button 'Submit'
+      = f.button 'Submit'
